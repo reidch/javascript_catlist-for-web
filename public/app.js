@@ -21,30 +21,30 @@ var app = function() {
 
 // create the first child
 	var createName = function(name){
-	var name = document.createElement('li');
-	name.innerText = "Name: " + name;
-	return name;
+	var catName = document.createElement('li');
+	catName.innerText = "Name: " + name;
+	return catName;
 }
 
 // create the second child
 	var createFaveFood = function(faveFood){
-	var faveFood = document.createElement('li');
-	faveFood.innerText = "Favourite food: " + faveFood;
-	return faveFood;
+	var favouriteFood = document.createElement('li');
+	favouriteFood.innerText = "Favourite food: " + faveFood;
+	return favouriteFood;
 }
 
 // create the third child (bullet point for image)
 	var createPhotoBullet = function(photoBullet){
-	var photoBullet = document.createElement('li');
-	return photoBullet;
+	var photoBulletPoint = document.createElement('li');
+	return photoBulletPoint;
 }
 
 // create the child from this with the image
 	var createPhoto = function(photo){
-	var photo = document.createElement('img');
-	photo.src = photo;
-	photo.style.width = "500px";
-	return photo;
+	var photograph = document.createElement('img');
+	photograph.src = photo;
+	photograph.style.width = "500px";
+	return photograph;
 }
 
 var appendElements = function(photo, photoBullet, faveFood, name, cat, cats){
